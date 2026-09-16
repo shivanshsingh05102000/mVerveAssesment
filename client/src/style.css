@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #222;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 24px auto;
+  padding: 0 16px;
+}
+
+h1 {
+  margin-bottom: 16px;
+}
+
+button,
+input,
+select {
+  font: inherit;
+  margin: 4px;
+  padding: 8px;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.form,
+.filters {
+  margin-bottom: 16px;
+}
+
+.form label {
+  display: inline-block;
+  margin: 4px;
+  vertical-align: top;
+}
+
+.form input,
+.form select,
+.filters input,
+.filters select {
+  min-width: 170px;
+}
+
+.form small {
+  color: #b00020;
+  display: block;
+  margin-left: 4px;
+}
+
+.message {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 12px;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background: #f3f3f3;
+}
+
+.pagination,
+.details,
+.delete-box {
+  margin-top: 16px;
+}
+
+.details,
+.delete-box {
+  border: 1px solid #ddd;
+  padding: 12px;
+}
+
+.empty {
+  color: #666;
+  text-align: center;
+}
+
+@media (max-width: 700px) {
+  table {
+    display: block;
+    overflow-x: auto;
+  }
+
+  .form input,
+  .form select,
+  .filters input,
+  .filters select {
+    width: calc(100% - 24px);
+  }
+}

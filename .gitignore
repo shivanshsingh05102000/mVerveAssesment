@@ -1,0 +1,7 @@
+node_modules/
+dist/
+customers.db
+backend/customers.db
+.env
+backend/.env
+client/.env
